@@ -7,8 +7,10 @@ const arthur = new Perso("arthur", "chevalier", 90, 20, 100, true, 10);
 const atchoum = new Perso("atchoum", "nain", 100, 50, 100, true, 10);
 const astirion = new Perso("astirion", "elfe", 80, 60, 100, true, 10);
 const sinok = new Perso("sinok", "orgue", 90, 10, 100, true, 10);
+const humain = new Perso("humain", "humain", 90, 10, 100, true, 10);
 
 console.log(gandalf.presentation());
+console.log(humain.presentation());
 console.log(atchoum.attaqueMain(astirion, 5));
 console.log(arthur.attaqueEpee(sinok, 20));
 console.log(gandalf.attaqueMagie(arthur, 40));
